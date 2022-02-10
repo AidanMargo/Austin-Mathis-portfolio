@@ -1,12 +1,8 @@
 import '../componentStyles/NavStyle.css'
-import {useState} from 'react'
-import Menu from './Menu';
 
 export default function Nav({menuActive, setMenuActive}) {
  
   
-  
-
   return (
     <nav>
       <div className={`menu-icon ${menuActive && 'change'}`} 

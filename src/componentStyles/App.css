@@ -8,6 +8,12 @@
   font-family: 'Archivo', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  background-color: transparent;
+  color: inherit;
+}
+
 @media (max-width: 375px) {
   .App {
     position: relative;

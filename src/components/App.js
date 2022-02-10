@@ -4,6 +4,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Landing from './Landing'
 import Nav from './Nav';
 import Menu from './Menu';
+import About from './About'
 
 function App() {
 
@@ -17,6 +18,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Landing />}/>
+          <Route path='/about' element={<About />}/>
+          <Route path='/work' element={<Landing />}/>
+          <Route path='/contact' element={<Landing />}/>
         </Routes>
       </BrowserRouter>
     </div>
