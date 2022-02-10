@@ -6,6 +6,7 @@ nav {
 }
 
 /* Menu Icon and animation */
+
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 5px;
@@ -31,7 +32,22 @@ nav {
   transform: rotate(45deg) translate(-9px, -8px) ;
 }
 
+.dark {
+  background-color: #343434;
+  color: #343434;
+}
 
+.nav-header {
+  background-color: transparent;
+}
+
+.header-name, .subtitle {
+  background-color: transparent;
+}
+.nav-header, .menu-icon {
+  z-index: 3;
+  background-color: transparent;
+}
 
 .header-name, .menu-icon {
   margin: 0.75rem 0.75rem 0 0.75rem;

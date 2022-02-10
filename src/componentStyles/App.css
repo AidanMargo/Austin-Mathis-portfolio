@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #343434;
+  font-family: 'Archivo', sans-serif;
 }
 
 @media (max-width: 375px) {
-
   .App {
-    background-color: #343434;
-    height: 100vh;
+    position: relative;
   }
-
 }

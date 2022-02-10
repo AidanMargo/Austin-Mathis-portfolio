@@ -1,0 +1,33 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  text-align: end;
+}
+
+input, textarea {
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  box-shadow: none;
+  font-size: 1rem; 
+  padding-top: 1rem;
+  color: #D6D6D6;
+}
+
+input {
+  height: 2rem;
+}
+
+textarea {
+  height: 8rem;
+  margin-bottom: 2rem;
+}
+
+.form-header {
+  text-align: center;
+  color: #D6D6D6;
+  margin-top: 5vh;
+}
