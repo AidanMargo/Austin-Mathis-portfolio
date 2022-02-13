@@ -5,6 +5,7 @@ import Landing from './Landing'
 import Nav from './Nav';
 import Menu from './Menu';
 import About from './About'
+import ContactForm from './ContactForm';
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
           <Route path='/' element={<Landing />}/>
           <Route path='/about' element={<About />}/>
           <Route path='/work' element={<Landing />}/>
-          <Route path='/contact' element={<Landing />}/>
+          <Route path='/contact' element={<ContactForm />}/>
         </Routes>
       </BrowserRouter>
     </div>

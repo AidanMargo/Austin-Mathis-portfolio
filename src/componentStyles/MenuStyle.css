@@ -1,38 +1,81 @@
-.menu-overlay {
-  height: 100%;
-  width: 100%;
-  z-index: 2;
-  background-color: rgba(238,234,234, 0.83);
-  position: absolute;
+@media (max-width: 376px) {
+  .menu-overlay {
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(238,234,234, 0.83);
+    position: absolute;
+  }
+  
+  .nav-links {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40%;
+    height: 30%;
+  }
+  
+  .nav-links li{
+    background-color: inherit;
+    list-style: none;
+    font-size: 1.5rem;
+  }
+  
+  .social-links , .social-links li {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: transparent;
+  }
+  
+  .social-links i {
+    margin-top: 1em;
+    list-style: none;
+    font-size: 3rem;
+    background: transparent;
+    color: rgba(52,52,52, 0.90);
+  }
 }
 
-.nav-links {
-  background-color: transparent;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 40%;
-  height: 30%;
-}
-
-.nav-links li{
-  background-color: inherit;
-  list-style: none;
-  font-size: 1.5rem;
-}
-
-.social-links , .social-links li {
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-  background-color: transparent;
-}
-
-.social-links i {
-  margin-top: 1em;
-  list-style: none;
-  font-size: 3rem;
-  background: transparent;
-  color: rgba(52,52,52, 0.90);
+@media (min-width: 376px) {
+  .menu-overlay {
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(238,234,234, 0.83);
+    position: absolute;
+  }
+  
+  .nav-links {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40%;
+    height: 30%;
+  }
+  
+  .nav-links li{
+    background-color: inherit;
+    list-style: none;
+    font-size: 1.5rem;
+  }
+  
+  .social-links , .social-links li {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: transparent;
+  }
+  
+  .social-links i {
+    margin-top: 1em;
+    list-style: none;
+    font-size: 3rem;
+    background: transparent;
+    color: rgba(52,52,52, 0.90);
+  }
 }

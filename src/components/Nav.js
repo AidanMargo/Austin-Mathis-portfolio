@@ -1,7 +1,10 @@
 import '../componentStyles/NavStyle.css'
 
 export default function Nav({menuActive, setMenuActive}) {
- 
+  
+  const mobileScreen = window.matchMedia('(max-width: 376px)').matches === true
+  const desktopScreen = window.matchMedia('(min-width: 376px)').matches === true
+
   
   return (
     <nav>

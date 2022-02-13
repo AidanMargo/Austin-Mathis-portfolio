@@ -17,8 +17,9 @@ input, textarea {
   color: #D6D6D6;
 }
 
-input {
+input { 
   height: 2rem;
+  padding: 0.25rem;
 }
 
 textarea {
@@ -30,4 +31,12 @@ textarea {
   text-align: center;
   color: #D6D6D6;
   margin-top: 5vh;
+  margin-bottom: 1rem;
 }
+ .contact-form button {
+  background-color: #d6d6d6;
+  padding: 0.75rem;
+  width: 7em;
+  font-size: 1rem;
+  margin: auto;
+ }
