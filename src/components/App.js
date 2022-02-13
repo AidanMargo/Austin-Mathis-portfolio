@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      {menuActive && <Menu />}
+      {menuActive && <Menu menuActive={menuActive} />}
       <Nav menuActive={menuActive} setMenuActive={setMenuActive}/>
       <BrowserRouter>
         <Routes>

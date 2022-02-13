@@ -2,7 +2,7 @@ import '../componentStyles/MenuStyle.css'
 import gsap from 'gsap'
 import { useEffect, useRef } from 'react'
 
-export default function Menu() {
+export default function Menu(menuActive) {
 
   const el = useRef()
   const q = gsap.utils.selector(el)
@@ -10,6 +10,14 @@ export default function Menu() {
 
   useEffect(() => {
     tl.current = gsap.timeline()
+    .fromTo('.menu-overlay', {
+      x: -250,
+    },
+    {
+      x:0,
+      duration: 0.5,
+      ease: 'power4.in-out'
+    })
     .from(q('.link'), 
     {
       x: -250,

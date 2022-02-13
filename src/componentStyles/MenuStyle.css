@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 40%;
-    height: 30%;
+    height: 15%;
   }
   
   .nav-links li{
@@ -42,9 +42,9 @@
 @media (min-width: 376px) {
   .menu-overlay {
     height: 100%;
-    width: 100%;
+    width: 20%;
     z-index: 2;
-    background-color: rgba(238,234,234, 0.83);
+    background-color: rgba(238,234,234, 1);
     position: absolute;
   }
   
@@ -52,10 +52,10 @@
     background-color: transparent;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
     margin-top: 40%;
-    height: 30%;
+    height: 20rem;
   }
   
   .nav-links li{

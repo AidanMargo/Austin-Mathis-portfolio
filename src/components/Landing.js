@@ -51,20 +51,19 @@ export default function Landing() {
   }
 
   const mobileAnimation = () => {
-    tl.current = gsap.timeline()
-    .to(q('.slide-one'), {
-      x: 0,
-      opacity: 0.9,
-      duration: 1,
-      ease: 'power4.in-out',
-    })
-    .to(q('.slide-two'), {
-      x: 0,
-      opacity: 0.9,
-      duration: 1,
-      ease: 'power4.in-out',
-      delay: -0.75
-    })
+    images.forEach(image => {
+      gsap.to(image, {
+       scrollTrigger: {
+         trigger: image,
+         start:'top center',
+         toggleActions: 'play none none reverse',
+       },
+       opacity: 1,
+       duration: 0.75,
+       ease: 'none'
+     })
+   })
+
   }
 
   const desktopAnimation = () => {
@@ -74,8 +73,6 @@ export default function Landing() {
         scrollTrigger: {
           trigger: image,
           start:'top center',
-          // scrub: true,
-          markers: true,
           toggleActions: 'play none none reverse',
         },
         opacity: 1,
