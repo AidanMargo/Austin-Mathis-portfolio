@@ -22,7 +22,7 @@ export default function Menu(menuActive) {
     {
       x: -250,
       opacity: 0.2,
-      duration: 0.75,
+      duration: 0.55,
       ease: 'power4.in-out',
       stagger: 0.15,
     })
@@ -43,7 +43,8 @@ export default function Menu(menuActive) {
         {/* <li><i className="fa-brands fa-twitter"></i></li>
         <li><i className="fa-brands fa-facebook"></i></li> */}
       </ul>
-      
+      <div className='parallelogram'>
+      </div>
    </div>
  ) 
 }

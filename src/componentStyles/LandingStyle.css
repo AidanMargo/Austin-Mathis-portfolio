@@ -45,14 +45,6 @@
       opacity: 0;
     }
   
-    .slide-one {
-      /* transform: translateY(-300%); */
-    }
-  
-    .slide-two {
-      /* transform: translateY(300%); */
-    }
-  
     .long {
       grid-column: 1/3;
     }

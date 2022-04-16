@@ -1,3 +1,13 @@
+.parallelogram {
+  width: 100%;
+  margin-top: 5em;
+  height: 7.5rem;
+  transform: skewY(35deg);
+  background: #f8690eab;
+}
+
+
+
 @media (max-width: 376px) {
   .menu-overlay {
     height: 100%;
@@ -37,6 +47,7 @@
     background: transparent;
     color: rgba(52,52,52, 0.90);
   }
+
 }
 
 @media (min-width: 376px) {

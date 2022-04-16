@@ -6,12 +6,13 @@ export default function About () {
   return (
     <div className='about'>
       <img src={headshot} alt='Headshot' className='headshot'/>
-      <p> Duis minim id ipsum in. Excepteur dolor qui et dolor adipisicing in. Laboris cillum nisi ullamco sunt sunt. 
-        Aliquip ipsum cillum cillum officia culpa enim aute excepteur nisi velit amet ullamco. 
-        Sit consectetur consequat exercitation tempor cupidatat sunt qui incididunt. </p>
-      <p> Duis minim id ipsum in. Excepteur dolor qui et dolor adipisicing in. Laboris cillum nisi ullamco sunt sunt. 
-        Aliquip ipsum cillum cillum officia culpa enim aute excepteur nisi velit amet ullamco. 
-        Sit consectetur consequat exercitation tempor cupidatat sunt qui incididunt. </p>
+      <div className="bio">
+        <p> I started photography after high school, buying my first camera at age 19, and had the realization that this
+          was what I wanted to do for the rest of my life. Today, I'm a photographer, influencer, and videographer working out of
+          the Dallas/Fort Worth Metroplex. </p>
+        <p> As of late, I've been widening my horizons and stepping out of my comfort zone to create new, unique visual experiences. Whether that
+          be on my little Canon Telemax or my Nixon z5, I couldn't be more excited to explore every way there is to take a picture. </p>
+      </div>
     </div>
   )
 }

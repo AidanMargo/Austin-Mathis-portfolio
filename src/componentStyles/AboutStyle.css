@@ -1,22 +1,24 @@
 @media (max-width: 376px) {
 
   .about {
-    margin: auto;
-    display: flex;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    flex-direction: column;
-    width: 80%;
-  }
-
-  .about p {
-    margin-top: 1.75rem;
-    color: #D6D6D6;
-    line-height: 1.75;
-  }
-
-  .headshot {
-    border-radius: 2%;
-  }
-
+      margin: auto;
+      display: flex;
+      margin-top: 2em;
+      margin-bottom: 2em;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .about p {
+      margin: 1.75rem;
+      color: #D6D6D6;
+      line-height: 1.85;
+      font-size: 1.5rem;
+    }
+  
+    .headshot {
+      border-radius: 2%;
+      max-width: 80%;
+      margin: auto;
+    }
 }
